@@ -1,0 +1,11 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  build-gokrazy-diskimage:
+    uses: bbusse/github-workflows/.github/workflows/build-gokrazy.yml@main
+    with:
+      image_name: gokrazy-full.img
