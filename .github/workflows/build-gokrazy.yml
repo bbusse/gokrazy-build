@@ -6,6 +6,6 @@ on:
 
 jobs:
   build-gokrazy-diskimage:
-    uses: bbusse/github-workflows/.github/workflows/build-gokrazy.yml@main
+    uses: bbusse/github-workflows/.github/workflows/build-gokrazy.yml@dev
     with:
       image_name: gokrazy-full.img
